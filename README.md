@@ -16,7 +16,7 @@ The Age Calculator is a web application that allows users to calculate their age
 
 ## Technologies Used
 
-- **Java:** Used for backend logic and age calculation.
+- **JavaScript:** Used for backend logic and age calculation.
 - **HTML:** Markup language for creating the structure of the web pages.
 - **CSS:** Styling language to enhance the visual presentation of the web pages.
 
