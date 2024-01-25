@@ -26,6 +26,40 @@
     font-size: 60px;
 }
 
+#start-menu{
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255,255,255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+#start-menu input{
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#start-menu button{
+    background: #a36b97;
+    border: 0;
+    outline: 0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
 .input-box{
     margin: 40px 0;
     padding: 35px;
@@ -41,7 +75,7 @@
     padding: 14px 20px;
     border: 0;
     outline: 0;
-font-size: 20px;
+    font-size: 20px;
     border-radius: 5px;
     position: relative;
 }

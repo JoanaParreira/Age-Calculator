@@ -26,6 +26,6 @@ The Age Calculator is a web application that allows users to calculate their age
 
 I'm working on improving with the following features:
 
-- Implementing a choice of name for the users on a starting menu 
+- Implementing a choice of name for the users on a starting menu ✔️
 - Implementing new style button and background, with CSS
 - Add music and sound effects to make the experience more interactive

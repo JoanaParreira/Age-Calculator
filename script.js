@@ -1,10 +1,17 @@
 let userInput = document.getElementById("date");
+let startMenu = document.getElementById("start-menu");
+let ageBox = document.querySelector(".input-box");
+let result = document.getElementById("result");
 
 userInput.max = new Date().toISOString().split("T")[0];
 
-let result = document.getElementById("result")
+function start(){
+startMenu.style.display = 'none';
+ageBox.style.display ='flex';
+}
 
 function calculateAge(){
+    let userName = document.getElementById("playerX").value;
     let birthDate = new Date(userInput.value);
 
     let d1 = birthDate.getDate();
@@ -39,7 +46,7 @@ if(m3 < 0){
     m3 = 11;
     y3--;
 }
-result.innerHTML = `You are <span>${y3}</span> years, <span>${m3}</span> months and <span>${d3}</span> days old!`;
+result.innerHTML = `${userName}, you are <span>${y3}</span> years, <span>${m3}</span> months and <span>${d3}</span> days old!`;
 }
 
 

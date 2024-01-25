@@ -10,12 +10,19 @@
     <div class="container">
         <div class="calculator">
             <h1>Age Calculator</h1>
-            <div class="input-box">
+
+            <div id="start-menu">
+            <div><p><label for="playerX">Enter your name:</label>
+            <input type="text" id="playerX" placeholder="Your name here">
+            <button onclick="start()" id="start-button">Let's Calculate</button>
+</div>
+</div>
+            <div class="input-box" style="display: none;">
                 <input type="date" id="date">
                 <button onclick="calculateAge()">Calculate</button>
             </div>
             <p id="result"></p>
-        </div>
+        
     </div>
     <script src="script.js"></script>
 </body>
