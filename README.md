@@ -3,6 +3,8 @@
 An age calculator 🌻
 
 ## Demonstration
+![Age Main](AgeCalculator.png)
+
 ![Age Calculator](AgeCalculator1.png)
 
 ## Overview
